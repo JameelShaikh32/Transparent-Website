@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url(road.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Varela Round', sans-serif;
+    border-bottom: 2px solid black;
+}
+
+.quote{
+    padding: 40px;
+    padding-top: 80px;
+}
+
+.quote p{
+    position: relative;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 200px;
+    font-size: 24px;
+    color: lightgray;
+}
+
+.quote p:hover{
+    color: lightseagreen;
+}
+
+.container{
+    position: absolute;
+    top: 15%;
+    left: 75%;
+}
+
+.container h1{
+    border-bottom: none;
+    padding-left: 50px;
+    font-size: 24px;
+    margin-bottom: 18%;
+    font-weight: bold;
+    font-size: 30px;
+    color: lightgray;
+    font-family: 'Varela Round', sans-serif;
+    outline:none;
+}
+
+.box{
+    padding: 0px 6px;
+    margin-bottom: 5px;
+}
+
+.box input{
+    font-size: 20px;
+    width: 85%;
+    padding: 5px;
+    bottom: 25px;
+    margin-bottom: 15px;
+    display: inline;
+    border: none;
+    font-family: 'Varela Round', sans-serif;
+    border-bottom: 2px solid lightgray;
+    outline: none;
+    background: none;
+    color: lightgray;
+}
+
+.box i{
+    text-align: center;
+    width: 20px;
+    color: lightgray;
+}
+
+.btn{
+    cursor: pointer;
+    margin: 5px 5px;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    width: 30%;
+    border-radius: 10px;
+    background: lightgray;
+    border: 2px solid lightgray;
+    outline: none;
+    top: 25%;
+}
+
+.btn:hover{
+    color: white;
+    background: none;
+
+}
+
+.icon{
+    padding: 10px 10px;
+    size: 50%;
+    color: lightgray;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.icon i{
+    color: lightgray;
+}
+
+.icon:hover{
+    color:lightseagreen;
+}
+
+.icon i:hover{
+    color:lightsalmon;
+}
+
+.insta i{
+    position: absolute;
+    color: lightgray;
+    text-align: right;
+    left: 95%;
+    top: 92%;
+    margin: 5px 5px;
+}

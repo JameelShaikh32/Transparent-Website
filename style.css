@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url(cloud.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Varela Round', sans-serif;
+    border-bottom: 2px solid black;
+}
+
+.container{
+    position: absolute;
+    top: 16%;
+    left: 40%;
+}
+
+.container h1{
+    display: inline-block;
+    padding-left: 50px;
+    font-size: 24px;
+    border-bottom: none;
+    margin-bottom: 18%;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Varela Round', sans-serif;
+    outline:none;
+}
+
+.box{
+    padding: 0px 6px;
+    margin-bottom: 5px;
+}
+
+.box input{
+    font-size: 20px;
+    width: 85%;
+    padding: 5px;
+    bottom: 25px;
+    margin-bottom: 15px;
+    display: inline;
+    border: none;
+    font-family: 'Varela Round', sans-serif;
+    border-bottom: 2px solid black;
+    outline: none;
+    background: none;
+    color: black;
+}
+
+.box i{
+    text-align: center;
+    width: 20px;
+    color: black;
+}
+
+.btn{
+    cursor: pointer;
+    margin: 5px 5px;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    width: 30%;
+    border-radius: 10px;
+    background: none;
+    border: 2px solid black;
+    outline: none;
+    top: 25%;
+}
+
+.btn:hover{
+    color: white;
+    background: black;
+
+}
+
+.btn1{
+    cursor: pointer;
+    margin: 5px 5px;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    width: 50%;
+    border-radius: 10px;
+    background: none;
+    border: 2px solid black;
+    outline: none;
+    top: 25%;
+}
+
+.btn1:hover{
+    color: white;
+    background: black;
+
+}
+
+a{
+    outline: none;
+    color: black;
+    font-weight: 800;
+    
+}
+
+a:hover{
+    color:darkslategray;
+}
+
+.icon{
+    padding: 10px 10px;
+    size: 50%;
+    color: black;
+    font-weight: bold;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.icon i{
+    width: 20px;
+}
+
+.icon:hover{
+    color: rgb(54, 140, 194);
+}
+
+.insta i{
+    position: absolute;
+    color: lightgray;
+    text-align: right;
+    left: 95%;
+    top: 92%;
+    margin: 5px 5px;
+}
